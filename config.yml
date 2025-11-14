@@ -55,23 +55,23 @@ params:
     profileMode:
           enabled: true
           title: Seth Woo
-          subtitle: "Oops ... Nothing to see here - yet. Come back another time. - Casual Seth, 2025"
+          subtitle: "Oops ... Nothing to see here - yet. Come back another time :D"
           imageUrl: "Casual Seth.jpg"
           imageWidth: 160
           imageHeight: 160
-          buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
+          # buttons:
+          #   - name: Papers
+          #     url: papers/
+          #   - name: Data
+          #     url: data/
+          #   - name: Books
+          #     url: books/
+          #   - name: Courses
+          #     url: courses/
+          #   - name: Tags
+          #     url: tags/
+          #   - name: Archive
+          #     url: archive/
             # - name: Blog
             #   url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
