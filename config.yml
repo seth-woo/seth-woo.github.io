@@ -12,21 +12,21 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
-          weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-          weight: 6
+        # - name: Books
+        #   url: books/
+        #   weight: 5 
+        # - name: Papers
+        #   url: papers/
+        #   weight: 2
+        # - name: Courses
+        #   url: courses/
+        #   weight: 3
+        # - name: Data
+        #   url: data/
+        #   weight: 4 
+        # - name: Blog
+        #   url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+        #   weight: 6
 
 params:
     description: "This website hosts Seth Woo's research papers, books, course materials, data, curriculum vitae, and contact information."
@@ -55,25 +55,25 @@ params:
     profileMode:
           enabled: true
           title: Seth Woo
-          subtitle: "Oops ... Nothing to see here yet! Website under construction ..."
-          imageUrl: "Seth Woo.png"
+          subtitle: "Oops ... Nothing to see here - yet. Come back another time. - Casual Seth, 2025"
+          imageUrl: "Casual Seth.jpg"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+            # - name: Papers
+            #   url: papers/
+            # - name: Data
+            #   url: data/
+            # - name: Books
+            #   url: books/
+            # - name: Courses
+            #   url: courses/
+            # - name: Tags
+            #   url: tags/
+            # - name: Archive
+            #   url: archive/
+            # - name: Blog
+            #   url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
     socialIcons:
         # - name: CV
