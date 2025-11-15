@@ -33,7 +33,7 @@ params:
     author: Seth Woo
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
-    defaultTheme: light
+    defaultTheme: dark
     hideFooter: false
     disableThemeToggle: true
     ShowShareButtons: false
@@ -94,10 +94,13 @@ params:
         #   url: https://pmichaillat.substack.com
         # - name: YouTube
         #   url: https://www.youtube.com/@pmichaillat
-        - name: Twitter
-          url: https://x.com/woogamanga
         # - name: Bluesky
         #   url: https://bsky.app/profile/pmichaillat.bsky.social
+        - name: linkedin
+          url: https://www.linkedin.com/in/sethwoo/
+        - name: x
+          url: https://x.com/woogamanga
+        
 
     assets:
         disableScrollBarStyle: true
