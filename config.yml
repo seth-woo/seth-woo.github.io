@@ -90,17 +90,24 @@ params:
         #   url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
         - name: GitHub
           url: https://github.com/seth-woo
-        # - name: Substack
-        #   url: https://pmichaillat.substack.com
-        # - name: YouTube
-        #   url: https://www.youtube.com/@pmichaillat
         # - name: Bluesky
         #   url: https://bsky.app/profile/pmichaillat.bsky.social
         - name: linkedin
           url: https://www.linkedin.com/in/sethwoo/
         - name: x
           url: https://x.com/woogamanga
-        
+        - name: instagram
+          url: https://www.instagram.com/21.09_wh/
+        - name: discord 
+          url: https://discord.com/users/484731835990147088
+        - name: whatsapp
+          url: https://wa.me/60126942981
+        # - name: YouTube
+        #   url: https://www.youtube.com/@pmichaillat
+        # - name: tiktok
+        #   url: https://www.tiktok.com/@pmichaillat
+        # - name: Substack
+        #   url: https://pmichaillat.substack.com
 
     assets:
         disableScrollBarStyle: true
