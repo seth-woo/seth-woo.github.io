@@ -116,7 +116,7 @@ params:
         hiddenInSingle: true
     label:
       text: "Seth Woo"
-      icon: favicon.ico
+      icon: alien.ico
       iconHeight: 18
 
 markup:
