@@ -55,7 +55,7 @@ params:
     profileMode:
           enabled: true
           title: Seth Woo
-          subtitle: "I’m a builder with a strong inclination toward research, currently transitioning from data science and analytics into AI/ML research and engineering. I enjoy experimenting, exploring ideas, and developing them into meaningful applications. I’m actively seeking employment, mentorship, or PhD opportunities—let’s connect! My research interests span Generative Models, Post-Training, Deep Learning Pipeline Optimization, Computer Vision, Self-Learning AI, Edge and Pseudo-Edge AI, Digital Twins, Explainable AI, Human-AI Interaction, and applications across Healthcare, Mobility, Sustainability, Creative Industries, as well as World Models and AGI."
+          subtitle: "Welcome to my website ! I'm Seth or Wai Hong (). I’m a builder with a strong inclination toward research, currently transitioning from DS/Analytics into AI/ML research. <br><br> I enjoy experimenting and developing ideas into meaningful applications. Let's connect! <br><br> I’m actively seeking employment, mentorship, or PhD opportunities—let’s connect! My research interests span Generative Models, Post-Training, Deep Learning Pipeline Optimization, Computer Vision, Self-Learning AI, Edge and Pseudo-Edge AI, Digital Twins, Explainable AI, Human-AI Interaction, and applications across Healthcare, Mobility, Sustainability, Creative Industries, as well as World Models and AGI."
           imageUrl: "Casual Seth.jpg"
           imageWidth: 180
           imageHeight: 180
