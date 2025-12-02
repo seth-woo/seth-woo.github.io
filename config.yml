@@ -33,7 +33,7 @@ params:
     author: Seth Woo
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
-    defaultTheme: dark
+    defaultTheme: auto
     hideFooter: false
     disableThemeToggle: true
     ShowShareButtons: false
