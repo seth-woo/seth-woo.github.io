@@ -80,6 +80,8 @@ params:
         #   url: cv.pdf
         - name: Email
           url: mailto:sethwoo555@gmail.com
+        - name: ORCID
+          url: https://orcid.org/0000-0002-0324-4815
         # - name: Zoom
         #   url: https://www.zoom.us/my/igelfeld
         # - name: Location
