@@ -52,6 +52,8 @@ params:
     UseHugoToc: true
     comments: false
     math: true
+    footer:
+        hideThemeCredit: true #added
     profileMode:
           enabled: true
           title: Seth Woo
