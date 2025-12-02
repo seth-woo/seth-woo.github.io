@@ -52,12 +52,10 @@ params:
     UseHugoToc: true
     comments: false
     math: true
-    footer:
-        hideThemeCredit: true #added
     profileMode:
           enabled: true
           title: Seth Woo
-          subtitle: "Welcome to my website ! I'm Seth or Wai Hong (). I’m a builder with a strong inclination toward research, currently transitioning from DS/Analytics into AI/ML research. <br><br> I enjoy experimenting and developing ideas into meaningful applications. Let's connect! <br><br> I’m actively seeking employment, mentorship, or PhD opportunities—let’s connect! My research interests span Generative Models, Post-Training, Deep Learning Pipeline Optimization, Computer Vision, Self-Learning AI, Edge and Pseudo-Edge AI, Digital Twins, Explainable AI, Human-AI Interaction, and applications across Healthcare, Mobility, Sustainability, Creative Industries, as well as World Models and AGI."
+          subtitle: "Welcome to my website ! I'm Seth or Wai Hong (胡伟康). <br><br> I’m a builder with a strong inclination toward research, currently transitioning from DS/Analytics into AI/ML research. <br> I enjoy experimenting and developing ideas into meaningful applications. Currently seeking employment/mentorship/PhD opportunities — Let's Connect! <br><br> My research interests span **Generative Models**, **Post-Training**, **Deep Learning Pipeline Optimization**, **Computer Vision**, **Self-Learning AI**, **Edge and Pseudo-Edge AI**, **Digital Twins**, **Explainable AI**, **Human-AI Interaction**, and applications across **Healthcare**, **Mobility**, **Sustainability**, and **Creative Industries**, as well as **World Models** and **Artificial General Intelligence**(**AGI**)."
           imageUrl: "Casual Seth.jpg"
           imageWidth: 180
           imageHeight: 180
