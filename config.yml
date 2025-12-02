@@ -55,7 +55,7 @@ params:
     profileMode:
           enabled: true
           title: Seth Woo
-          subtitle: "Welcome to my website ! I'm Seth or Wai Hong (胡伟康). <br><br> I’m a research-driven builder transitioning from DS/Analytics into AI/ML research. I enjoy turning experiments into meaningful applications and am currently seeking employment, mentorship, or PhD opportunities — Let's Connect ! <br><br> My research interests span **Generative Models**, **Post-Training**, **DL Pipeline Optimization**, **Computer Vision**, **Edge AI**, **Digital Twins** and **Virtualization**, **Explainable AI**, **Human-AI Interaction** and **Applications** across **Healthcare**, **Mobility**, **Sustainability**, and **Creative Industries**, as well as **World Models** and **Artificial General Intelligence** (**AGI**)."
+          subtitle: "Welcome to my website ! I'm **Seth** or **Wai Hong** (**胡伟康**). <br><br> I’m a research-driven builder transitioning from DS/Analytics into AI/ML research. I enjoy turning experiments into meaningful applications and am currently seeking employment, mentorship, or PhD opportunities — Let's Connect ! <br><br> My research interests span **Generative Models**, **Post-Training**, **DL Pipeline Optimization**, **Computer Vision**, **Edge AI**, **Digital Twins** and **Virtualization**, **Explainable AI**, **Human-AI Interaction** and **Applications** across **Healthcare**, **Mobility**, **Sustainability**, and **Creative Industries**, as well as **World Models** and **Artificial General Intelligence** (**AGI**)."
           imageUrl: "Casual Seth.jpg"
           imageWidth: 180
           imageHeight: 180
@@ -82,22 +82,18 @@ params:
           url: mailto:sethwoo555@gmail.com
         - name: ORCID
           url: https://orcid.org/0000-0002-0324-4815
-        # - name: Zoom
-        #   url: https://www.zoom.us/my/igelfeld
-        # - name: Location
-        #   url: location/
-        # - name: Office Hours
-        #   url: officehours/
         # - name: Google Scholar
         #   url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
         - name: GitHub
           url: https://github.com/seth-woo
-        # - name: Bluesky
-        #   url: https://bsky.app/profile/pmichaillat.bsky.social
         - name: linkedin
           url: https://www.linkedin.com/in/sethwoo/
         - name: x
           url: https://x.com/woogamanga
+        - name: Mastodon
+          url: https://mastodon.social/@seth_woo
+        - name: Bluesky
+          url: https://bsky.app/profile/sethwoo.bsky.social
         - name: instagram
           url: https://www.instagram.com/21.09_wh/
         - name: discord 
@@ -110,6 +106,12 @@ params:
         #   url: https://www.tiktok.com/@pmichaillat
         # - name: Substack
         #   url: https://pmichaillat.substack.com
+        # - name: Zoom
+        #   url: https://www.zoom.us/my/igelfeld
+        # - name: Location
+        #   url: location/
+        # - name: Office Hours
+        #   url: officehours/
 
     assets:
         disableScrollBarStyle: true
