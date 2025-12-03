@@ -56,7 +56,7 @@ params:
           enabled: true
           title: Seth Woo
           subtitle: "I'm **Seth** or **Wai Hong** (**胡伟康**). <br><br> I am a research-driven builder and aspiring AI/ML researcher, with a background in DS/Analytics. I enjoy turning experiments into meaningful applications. At the moment, I am actively seeking employment/mentorship/PhD opportunities in AI. <br><br> My research interests span **Generative Models**, **Large Language Models** (**LLMs**), **Post-Training of LLMs**, **Design and Optimization of Multimodal & Multi-model DL Pipelines**, **Computer Vision**, **Edge AI**, **Digital Twins** and **Virtualization**, **Trustworthy AI**, **Human-AI Interaction** & **Applications** across **Healthcare**, **Mobility**, **Sustainability**, and **Creative Industries**, as well as **World Models** and **Artificial General Intelligence** (**AGI**) <br><br> If any of the above interests you, or you are pursuing similar goals, I’d love to chat. Let's connect !"
-          imageUrl: "Minimal Seth.jpg"
+          imageUrl: "Minimal Seth.png"
           imageWidth: 180
           imageHeight: 180
           # buttons:
