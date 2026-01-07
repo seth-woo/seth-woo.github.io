@@ -64,8 +64,6 @@ params:
               url: papers/
             - name: Notes
               url: https://seth-woo.github.io/
-            - name: Tags
-              url: tags/
             # - name: Data
             #   url: data/
             # - name: Books
