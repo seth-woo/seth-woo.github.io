@@ -62,8 +62,6 @@ params:
           buttons:
             - name: Papers
               url: papers/
-            - name: Notes
-              url: https://seth-woo.github.io/
             # - name: Data
             #   url: data/
             # - name: Books
@@ -72,6 +70,8 @@ params:
               url: courses/
             # - name: Archive
             #   url: archive/
+            - name: Notes
+              url: https://seth-woo.github.io/
 
     socialIcons:
         - name: CV
