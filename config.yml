@@ -21,6 +21,9 @@ menu:
         - name: Courses
           url: courses/
           weight: 3
+        - name: Notes
+          url: https://seth-woo.github.io/
+          weight: 4
         # - name: Data
         #   url: data/
         #   weight: 4 
