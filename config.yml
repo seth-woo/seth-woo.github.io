@@ -16,7 +16,8 @@ menu:
         #   url: books/
         #   weight: 5 
         - name: Papers
-          url: papers/
+          # url: papers/
+          url: https://seth-woo.github.io/
           weight: 2
         # - name: Courses
         #   url: courses/
@@ -64,7 +65,8 @@ params:
           imageHeight: 165
           buttons:
             - name: Papers
-              url: papers/
+              # url: papers/
+              url: https://seth-woo.github.io/
             # - name: Data
             #   url: data/
             # - name: Books
