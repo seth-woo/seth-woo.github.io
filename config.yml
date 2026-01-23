@@ -18,12 +18,12 @@ menu:
         - name: Papers
           url: papers/
           weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Notes
+        # - name: Courses
+        #   url: courses/
+        #   weight: 3
+        - name: Digital Garden
           url: https://seth-woo.github.io/
-          weight: 4
+          weight: 3
         # - name: Data
         #   url: data/
         #   weight: 4 
@@ -69,11 +69,11 @@ params:
             #   url: data/
             # - name: Books
             #   url: books/
-            - name: Courses
-              url: courses/
+            # - name: Courses
+            #   url: courses/
             # - name: Archive
             #   url: archive/
-            - name: Notes
+            - name: Digital Garden
               url: https://seth-woo.github.io/
 
     socialIcons:
