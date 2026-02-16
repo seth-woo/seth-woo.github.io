@@ -4,7 +4,7 @@
 + Purpose of the website is to showcase (but not limited to):
   * My Curriculum Vitae
   * Relevant news/updates
-  * Courses that I've taken/currently taking
+  * Courses that I've taken/currently taking/currently teaching
   * Projects old/new
   * Publications  AND
   * blog posts, serving as a personal portfolio for all things ME :D
