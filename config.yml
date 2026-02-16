@@ -111,8 +111,8 @@ params:
         #   url: https://pmichaillat.substack.com
         # - name: Zoom
         #   url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
+        # - name: Location
+        #   url: location/
 
     assets:
         disableScrollBarStyle: true
