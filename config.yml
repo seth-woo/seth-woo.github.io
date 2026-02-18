@@ -15,14 +15,14 @@ menu:
         # - name: Books
         #   url: books/
         #   weight: 5 
-        - name: Papers
+        - name: Publications
           # url: papers/
           url: https://seth-woo.github.io/
           weight: 2
         # - name: Courses
         #   url: courses/
         #   weight: 3
-        - name: Digital Garden
+        - name: Garden/Vault
           url: https://seth-woo.github.io/
           weight: 3
         # - name: Data
@@ -64,7 +64,7 @@ params:
           imageWidth: 165
           imageHeight: 165
           buttons:
-            - name: Papers
+            - name: Publications
               # url: papers/
               url: https://seth-woo.github.io/
             # - name: Data
