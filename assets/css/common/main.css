@@ -124,7 +124,7 @@ pre {
     background: rgba(78, 78, 78, 0.8);
     border-radius: var(--radius);
     padding: 0 5px;
-    font-size: 14px;
+    font-size: 12px;
     user-select: none;
 }
 
