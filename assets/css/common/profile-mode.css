@@ -33,6 +33,10 @@
     margin-bottom: 0;
 }
 
+.profile .profile_inner span strong {
+    color: #0000FF;
+}
+
 .profile .profile_inner h1 {
     font-size: 2.5rem;
 }
