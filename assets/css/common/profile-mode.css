@@ -29,11 +29,12 @@ body:not(.dark) .main .profile::before {
     background:
         radial-gradient(circle at 30% 30%, rgba(0, 136, 255, 0.78), transparent 56%),
         radial-gradient(circle at 72% 66%, rgba(0, 211, 255, 0.68), transparent 58%),
+        radial-gradient(circle at 62% 38%, rgba(72, 214, 156, 0.42), transparent 54%),
         radial-gradient(circle at 38% 78%, rgba(92, 92, 255, 0.62), transparent 52%);
     filter: blur(14px);
     opacity: 0.75;
     pointer-events: none;
-    animation: light-blob-float 14s ease-in-out infinite alternate;
+    animation: light-blob-fluid 16s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
 }
 
 body:not(.dark) .main .profile::after {
@@ -44,29 +45,54 @@ body:not(.dark) .main .profile::after {
     top: 28%;
     right: 18%;
     border-radius: 65% 35% 54% 46% / 43% 56% 44% 57%;
-    background: radial-gradient(circle at 50% 50%, rgba(0, 143, 255, 0.35), transparent 70%);
+    background:
+        radial-gradient(circle at 50% 50%, rgba(0, 143, 255, 0.35), transparent 70%),
+        radial-gradient(circle at 42% 64%, rgba(96, 222, 170, 0.2), transparent 68%);
     filter: blur(20px);
-    opacity: 0.6;
+    opacity: 0.62;
     pointer-events: none;
-    animation: light-blob-sway 18s ease-in-out infinite;
+    animation: light-blob-fluid-2 19s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
 }
 
-@keyframes light-blob-float {
+@keyframes light-blob-fluid {
     0% {
         transform: translate(0, 0) scale(1) rotate(0deg);
+        border-radius: 39% 61% 63% 37% / 43% 35% 65% 57%;
+    }
+    25% {
+        transform: translate(-20px, 14px) scale(1.07) rotate(8deg);
+        border-radius: 56% 44% 38% 62% / 46% 60% 40% 54%;
+    }
+    50% {
+        transform: translate(-42px, 28px) scale(1.12) rotate(16deg);
+        border-radius: 62% 38% 48% 52% / 57% 42% 58% 43%;
+    }
+    75% {
+        transform: translate(-24px, 12px) scale(1.08) rotate(9deg);
+        border-radius: 47% 53% 61% 39% / 40% 49% 51% 60%;
     }
     100% {
-        transform: translate(-42px, 28px) scale(1.12) rotate(24deg);
+        transform: translate(-8px, 20px) scale(1.03) rotate(4deg);
+        border-radius: 39% 61% 63% 37% / 43% 35% 65% 57%;
     }
 }
 
-@keyframes light-blob-sway {
-    0%,
+@keyframes light-blob-fluid-2 {
+    0% {
+        transform: translate(0, 0) scale(1);
+        border-radius: 65% 35% 54% 46% / 43% 56% 44% 57%;
+    }
+    33% {
+        transform: translate(22px, -18px) scale(1.06);
+        border-radius: 42% 58% 36% 64% / 60% 37% 63% 40%;
+    }
+    66% {
+        transform: translate(12px, -30px) scale(1.1);
+        border-radius: 58% 42% 66% 34% / 38% 52% 48% 62%;
+    }
     100% {
         transform: translate(0, 0) scale(1);
-    }
-    50% {
-        transform: translate(26px, -24px) scale(1.08);
+        border-radius: 65% 35% 54% 46% / 43% 56% 44% 57%;
     }
 }
 
