@@ -72,3 +72,8 @@
 .button:hover {
     background: var(--lightcolor);
 }
+
+.dark .button:hover,
+.dark .button:hover .button-inner {
+    color: #000000;
+}
