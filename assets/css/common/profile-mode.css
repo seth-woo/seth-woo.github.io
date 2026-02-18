@@ -63,6 +63,7 @@
 
 .button-inner {
     padding: 0 8px;
+    font-weight: 700;
 }
 
 .button:hover {
