@@ -62,7 +62,7 @@ params:
           subtitle: |
             I'm **Seth** or **Wai Hong** (胡伟康).
 
-            I am an aspiring AI/ML researcher, with a background in CompSci & DataSci. I thrive in R&D environments where I enjoy turning experiments into meaningful applications. At the moment, I am actively seeking PhD opportunities in **Continual Learning** (**CL**). I am primarily interested in exploring CL under **Distributed**, **Low-Resource** Settings for **non-stationary**, **non-i.i.d** **Data Streams** but am also open to adjacent topics such as **Online Learning**, **Active Learning**, **Meta-Learning**, **Open-World Learning**, **Few-Shot Learning**, **Transfer Learning**, **Domain Adaptation** and **Federated Learning** in the context of **Lifelong Learning**.
+            I am an aspiring AI/ML researcher, with a background in CompSci & DataSci. I thrive in R&D environments where I enjoy turning experiments into meaningful applications. At the moment, I am actively seeking PhD opportunities in **Continual Learning** (CL). I am primarily interested in exploring CL under **distributed**, **low-Resource settings** for **non-stationary**, **non-i.i.d data streams** but am also open to adjacent topics such as **Online Learning**, **Active Learning**, **Meta-Learning**, **Open-World Learning**, **Few-Shot Learning**, **Transfer Learning**, **Domain Adaptation** and **Federated Learning** within the context of **Lifelong Learning**.
 
             If any of the above interests you, or you're pursuing similar goals, I'd love to chat. HMU!
           imageUrl: "Minimal Seth.png"
