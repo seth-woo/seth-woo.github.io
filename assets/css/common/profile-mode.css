@@ -34,7 +34,8 @@ body:not(.dark) .main .profile::before {
     filter: blur(14px);
     opacity: 0.75;
     pointer-events: none;
-    animation: light-blob-fluid 16s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+    will-change: transform, border-radius;
+    animation: light-blob-fluid 24s cubic-bezier(0.43, 0.03, 0.57, 0.98) infinite alternate;
 }
 
 body:not(.dark) .main .profile::after {
@@ -51,47 +52,64 @@ body:not(.dark) .main .profile::after {
     filter: blur(20px);
     opacity: 0.62;
     pointer-events: none;
-    animation: light-blob-fluid-2 19s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+    will-change: transform, border-radius;
+    animation: light-blob-fluid-2 29s cubic-bezier(0.43, 0.03, 0.57, 0.98) infinite alternate-reverse;
 }
 
 @keyframes light-blob-fluid {
     0% {
-        transform: translate(0, 0) scale(1) rotate(0deg);
+        transform: translate(-6px, 4px) scale(1.01) rotate(0deg);
         border-radius: 39% 61% 63% 37% / 43% 35% 65% 57%;
     }
-    25% {
-        transform: translate(-20px, 14px) scale(1.07) rotate(8deg);
-        border-radius: 56% 44% 38% 62% / 46% 60% 40% 54%;
+    18% {
+        transform: translate(-22px, 10px) scale(1.06) rotate(7deg);
+        border-radius: 57% 43% 40% 60% / 46% 58% 42% 54%;
     }
-    50% {
-        transform: translate(-42px, 28px) scale(1.12) rotate(16deg);
-        border-radius: 62% 38% 48% 52% / 57% 42% 58% 43%;
+    36% {
+        transform: translate(-40px, 26px) scale(1.12) rotate(15deg);
+        border-radius: 63% 37% 50% 50% / 57% 42% 58% 43%;
     }
-    75% {
-        transform: translate(-24px, 12px) scale(1.08) rotate(9deg);
-        border-radius: 47% 53% 61% 39% / 40% 49% 51% 60%;
+    54% {
+        transform: translate(-28px, 8px) scale(1.09) rotate(10deg);
+        border-radius: 48% 52% 62% 38% / 39% 50% 50% 61%;
+    }
+    72% {
+        transform: translate(-44px, 34px) scale(1.15) rotate(19deg);
+        border-radius: 66% 34% 46% 54% / 59% 39% 61% 41%;
+    }
+    88% {
+        transform: translate(-16px, 20px) scale(1.05) rotate(6deg);
+        border-radius: 44% 56% 58% 42% / 41% 47% 53% 59%;
     }
     100% {
-        transform: translate(-8px, 20px) scale(1.03) rotate(4deg);
+        transform: translate(-6px, 4px) scale(1.01) rotate(0deg);
         border-radius: 39% 61% 63% 37% / 43% 35% 65% 57%;
     }
 }
 
 @keyframes light-blob-fluid-2 {
     0% {
-        transform: translate(0, 0) scale(1);
+        transform: translate(4px, -2px) scale(1.01);
         border-radius: 65% 35% 54% 46% / 43% 56% 44% 57%;
     }
-    33% {
-        transform: translate(22px, -18px) scale(1.06);
-        border-radius: 42% 58% 36% 64% / 60% 37% 63% 40%;
+    20% {
+        transform: translate(20px, -16px) scale(1.06);
+        border-radius: 44% 56% 38% 62% / 60% 37% 63% 40%;
     }
-    66% {
-        transform: translate(12px, -30px) scale(1.1);
-        border-radius: 58% 42% 66% 34% / 38% 52% 48% 62%;
+    40% {
+        transform: translate(10px, -30px) scale(1.1);
+        border-radius: 59% 41% 66% 34% / 38% 53% 47% 62%;
+    }
+    60% {
+        transform: translate(28px, -24px) scale(1.08);
+        border-radius: 35% 65% 49% 51% / 55% 34% 66% 45%;
+    }
+    80% {
+        transform: translate(12px, -8px) scale(1.03);
+        border-radius: 54% 46% 61% 39% / 40% 50% 50% 60%;
     }
     100% {
-        transform: translate(0, 0) scale(1);
+        transform: translate(4px, -2px) scale(1.01);
         border-radius: 65% 35% 54% 46% / 43% 56% 44% 57%;
     }
 }
