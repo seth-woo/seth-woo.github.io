@@ -1,13 +1,15 @@
 ## Introduction
 
-+ Personal website for Seth Woo.
++ Personal/Academic website for Seth Woo.
 + Purpose of the website is to showcase (but not limited to):
-  * My Curriculum Vitae
+  * My updated Curriculum Vitae
+  * My Socials
   * Relevant news/updates
   * Courses that I've taken/currently taking/currently teaching
   * Projects old/new
-  * Publications  AND
-  * blog posts, serving as a personal portfolio for all things ME :D
+  * Publications (conference papers, journal papers, workshop, preprints, etc.)  AND
+  * My Obsidian Vault, hosted as a functional website (I've termed this Garden for now) on GitHub Pages with the help of Quartz 4 (https://quartz.jzhao.xyz/)
++ It serves as a personal portfolio for all things ME :D
 + The website is built with Hugo v0.147.2 via GitHub Actions, and hosted on GitHub Pages.
 
 ## Credits
