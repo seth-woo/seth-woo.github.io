@@ -22,7 +22,7 @@ menu:
         # - name: Courses
         #   url: courses/
         #   weight: 3
-        - name: Garden/Vault
+        - name: Garden/Vault (:re)
           url: https://seth-woo.github.io/
           weight: 3
         # - name: Data
@@ -80,7 +80,7 @@ params:
             #   url: courses/
             # - name: Archive
             #   url: archive/
-            - name: Garden/Vault
+            - name: Garden/Vault (:re)
               url: https://seth-woo.github.io/
 
     socialIcons:
