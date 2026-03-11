@@ -15,6 +15,9 @@ menu:
         # - name: Books
         #   url: books/
         #   weight: 5 
+        - name: CV
+          url: https://seth-woo.github.io/
+          weight: 1
         - name: Publications
           # url: papers/
           url: https://seth-woo.github.io/
@@ -22,7 +25,7 @@ menu:
         # - name: Courses
         #   url: courses/
         #   weight: 3
-        - name: Garden/Vault (:re)
+        - name: :re garden
           url: https://seth-woo.github.io/re-garden/
           weight: 3
         # - name: Data
@@ -69,6 +72,8 @@ params:
           imageWidth: 165
           imageHeight: 165
           buttons:
+            - name: CV
+              url: https://seth-woo.github.io/
             - name: Publications
               # url: papers/
               url: https://seth-woo.github.io/
@@ -80,12 +85,12 @@ params:
             #   url: courses/
             # - name: Archive
             #   url: archive/
-            - name: Garden/Vault (:re)
+            - name: :re garden
               url: https://seth-woo.github.io/re-garden/
 
     socialIcons:
-        - name: CV
-          url: "Curriculum Vitae - Waihong Woo (Seth).pdf"
+        # - name: CV
+        #   url: "Curriculum Vitae - Waihong Woo (Seth).pdf"
         - name: Email
           url: mailto:sethwoo555@gmail.com
         - name: ORCID
