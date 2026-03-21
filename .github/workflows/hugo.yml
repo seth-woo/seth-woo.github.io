@@ -43,6 +43,12 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
+      - name: Install Node Deps
+        run: npm ci
+        working-directory: ascii-overlay
+      - name: Build Ascii-Overlay
+        run: npm run build
+        working-directory: ascii-overlay
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

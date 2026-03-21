@@ -1,0 +1,15 @@
+#ascii-overlay-root {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  pointer-events: none;
+  z-index: 0;
+}
+
+#ascii-overlay-root *,
+#ascii-overlay-root *::before,
+#ascii-overlay-root *::after {
+  box-sizing: border-box;
+}

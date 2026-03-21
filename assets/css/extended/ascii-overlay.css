@@ -1,0 +1,61 @@
+body.is-home {
+  background: #000;
+}
+
+body.is-home .ascii-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+body.is-home .main {
+  position: relative;
+  z-index: 2;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 1.8vmin 3vmin;
+}
+
+body.is-home .profile {
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 0;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  padding: clamp(18px, 2.8vw, 30px) clamp(24px, 4vw, 46px);
+  max-width: min(92vw, 720px);
+  width: 100%;
+}
+
+body.is-home .profile .profile_inner {
+  gap: 14px;
+}
+
+body.is-home .profile .profile_inner h1 {
+  margin: 0;
+  font-size: clamp(2rem, 3vw, 2.6rem);
+  letter-spacing: 0.2px;
+  color: var(--primary);
+}
+
+body.is-home .profile .profile_inner span p {
+  margin: 0 0 1rem;
+  color: var(--content);
+}
+
+body.is-home .profile img {
+  border: 1px solid var(--tertiary);
+}
+
+body.is-home .social-icons {
+  margin-top: 6px;
+}
+
+body.is-home .buttons {
+  margin-top: 8px;
+}
+
+body.is-home.dark .profile {
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6);
+}

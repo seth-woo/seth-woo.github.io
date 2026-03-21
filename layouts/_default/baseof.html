@@ -16,7 +16,13 @@
 {{- if eq site.Params.defaultTheme `dark` -}}
 {{- print " dark" }}
 {{- end -}}
+{{- if .IsHome -}}
+{{- print " is-home" -}}
+{{- end -}}
 " id="top">
+    {{- if .IsHome }}
+    <div id="ascii-overlay-root" class="ascii-overlay" aria-hidden="true"></div>
+    {{- end }}
     {{- if not .IsHome  }}
     {{- partialCached "header.html" . .Page -}}
     {{- end }}
@@ -24,5 +30,8 @@
         {{- block "main" . }}{{ end }}
     </main>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+    {{- if .IsHome }}
+    <script type="module" src="/vite/vite.js"></script>
+    {{- end }}
 </body>
 </html>

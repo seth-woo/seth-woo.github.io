@@ -1,0 +1,54 @@
+#ascii-overlay-root .app,
+#ascii-overlay-root .stage,
+#ascii-overlay-root .stage-inner {
+  width: 100%;
+  height: 100%;
+}
+
+#ascii-overlay-root .app {
+  position: absolute;
+  inset: 0;
+  display: block;
+  background: #000;
+}
+
+#ascii-overlay-root .stage {
+  --pad: 3vmin;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  padding: var(--pad);
+  box-sizing: border-box;
+}
+
+#ascii-overlay-root .stage-inner {
+  width: calc(100vw - (2 * var(--pad)));
+  aspect-ratio: 1080 / 608;
+  height: auto;
+  max-height: calc(100vh - (2 * var(--pad)));
+}
+
+@media (min-aspect-ratio: 1080/608) {
+  #ascii-overlay-root .stage-inner {
+    height: calc(100vh - (2 * var(--pad)));
+    width: auto;
+  }
+}
+
+#ascii-overlay-root .video-full {
+  width: 100%;
+  height: 100%;
+}
+
+#ascii-overlay-root .video-full > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+
+#ascii-overlay-root .video-full canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
