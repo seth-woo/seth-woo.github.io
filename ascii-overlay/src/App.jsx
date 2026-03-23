@@ -18,7 +18,7 @@ function App() {
             audioEffect={0}
             enableMouse={false}
             enableRipple={false}
-            charset="standard"
+            charset="detailed"
             isPlaying={isPlaying}
             autoPlay={true}
             className="video-full"
