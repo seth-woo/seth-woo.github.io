@@ -42,7 +42,7 @@ Personal/Academic website for Seth Woo. This repository combines a Hugo site (Pa
 1. Install Hugo (extended) and Node.js.
 2. Install Vite app dependencies: `cd ascii-overlay` then `npm install`.
 3. Run the ASCII overlay app in dev mode: `npm run dev`.
-4. In a separate terminal, run Hugo locally: `hugo server`.
+4. In a separate terminal, run Hugo locally: `hugo server -D`.
 
 **Full build (matching CI)**
 
