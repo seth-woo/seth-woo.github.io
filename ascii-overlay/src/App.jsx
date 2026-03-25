@@ -15,11 +15,11 @@ function App() {
             numColumns={240}
             colored={true}
             brightness={2.0}
-            blend={30}
+            blend={0}
             audioEffect={0}
             enableMouse={false}
             enableRipple={false}
-            charset="detailed"
+            charset="binary"
             isPlaying={isPlaying}
             autoPlay={true}
             className="video-full"
