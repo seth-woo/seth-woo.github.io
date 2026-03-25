@@ -14,11 +14,12 @@ function App() {
             src={videoSrc}
             numColumns={240}
             colored={true}
-            brightness={1.0}
+            brightness={2.0}
+            blend={30}
             audioEffect={0}
             enableMouse={false}
             enableRipple={false}
-            charset="blocks"
+            charset="detailed"
             isPlaying={isPlaying}
             autoPlay={true}
             className="video-full"
