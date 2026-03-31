@@ -12,7 +12,7 @@ function App() {
         <div className="stage-inner">
           <Video2Ascii
             src={videoSrc}
-            numColumns={110}
+            numColumns={180}
             colored={true}
             brightness={1.25}
             blend={0}
