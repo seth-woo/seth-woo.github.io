@@ -15,19 +15,28 @@ menu:
         # - name: Books
         #   url: books/
         #   weight: 5 
-        - name: CV
-          url: https://seth-woo.github.io/
-          weight: 1
-        - name: Publications
-          # url: papers/
-          url: https://seth-woo.github.io/
-          weight: 2
+        # - name: CV
+        #   url: https://seth-woo.github.io/
+        #   weight: 1
+        # - name: Publications
+        #   # url: papers/
+        #   url: https://seth-woo.github.io/
+        #   weight: 2
         # - name: Courses
         #   url: courses/
         #   weight: 3
+        - name: github
+          url: https://github.com/seth-woo
+          weight: 1
+        - name: twitter
+          url: https://x.com/woogamanga
+          weight: 2
+        - name: linkedin
+          url: https://www.linkedin.com/in/sethwoo/
+          weight: 3
         - name: :re garden
           url: https://seth-woo.github.io/re-garden/
-          weight: 3
+          weight: 4
         # - name: Data
         #   url: data/
         #   weight: 4 
@@ -40,7 +49,7 @@ params:
     author: Seth Woo
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
-    defaultTheme: light
+    defaultTheme: dark
     hideFooter: true
     disableThemeToggle: false
     ShowShareButtons: false
@@ -72,11 +81,11 @@ params:
           imageWidth: 165
           imageHeight: 165
           buttons:
-            - name: CV
-              url: https://seth-woo.github.io/
-            - name: Publications
-              # url: papers/
-              url: https://seth-woo.github.io/
+            # - name: CV
+            #   url: https://seth-woo.github.io/
+            # - name: Publications
+            #   # url: papers/
+            #   url: https://seth-woo.github.io/
             # - name: Data
             #   url: data/
             # - name: Books
@@ -85,30 +94,37 @@ params:
             #   url: courses/
             # - name: Archive
             #   url: archive/
-            - name: :re garden
+            - name: github
+              url: https://github.com/seth-woo
+            - name: twitter
+              url: https://x.com/woogamanga
+            - name: linkedin
+              url: https://www.linkedin.com/in/sethwoo/
+            - name: :re garden (🔒︎)
               url: https://seth-woo.github.io/re-garden/
 
     socialIcons:
-        # - name: CV
-        #   url: "Curriculum Vitae - Waihong Woo (Seth).pdf"
+        - name: CV
+          # url: "Curriculum Vitae - Waihong Woo (Seth).pdf"
+          url: https://seth-woo.github.io/
         - name: Email
           url: mailto:sethwoo555@gmail.com
         - name: ORCID
           url: https://orcid.org/0000-0002-0324-4815
         # - name: Google Scholar
         #   url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: GitHub
-          url: https://github.com/seth-woo
-        - name: linkedin
-          url: https://www.linkedin.com/in/sethwoo/
-        - name: x
-          url: https://x.com/woogamanga
+        # - name: GitHub
+        #   url: https://github.com/seth-woo
+        # - name: linkedin
+        #   url: https://www.linkedin.com/in/sethwoo/
+        # - name: x
+        #   url: https://x.com/woogamanga
         - name: Mastodon
           url: https://mastodon.social/@seth_woo
-        - name: Bluesky
-          url: https://bsky.app/profile/sethwoo.bsky.social
-        - name: instagram
-          url: https://www.instagram.com/21.09_wh/
+        # - name: Bluesky
+        #   url: https://bsky.app/profile/sethwoo.bsky.social
+        # - name: instagram
+        #   url: https://www.instagram.com/21.09_wh/
         - name: discord 
           url: https://discord.com/users/484731835990147088
         - name: whatsapp
