@@ -16,8 +16,8 @@ function App() {
             colored={true}
             brightness={2.0}
             audioEffect={0}
-            enableMouse={false}
-            enableRipple={false}
+            enableMouse={true}
+            enableRipple={true}
             charset="detailed"
             isPlaying={isPlaying}
             autoPlay={true}
