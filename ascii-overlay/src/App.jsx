@@ -12,12 +12,14 @@ function App() {
         <div className="stage-inner">
           <Video2Ascii
             src={videoSrc}
-            numColumns={220}
+            numColumns={80}
             colored={true}
-            brightness={2.0}
+            brightness={1.25}
+            blend={0}
+            highlight={40}
             audioEffect={0}
-            enableMouse={true}
-            enableRipple={true}
+            enableMouse={false}
+            enableRipple={false}
             charset="detailed"
             isPlaying={isPlaying}
             autoPlay={true}
