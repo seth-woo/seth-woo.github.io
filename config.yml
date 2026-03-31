@@ -34,7 +34,7 @@ menu:
         - name: linkedin
           url: https://www.linkedin.com/in/sethwoo/
           weight: 3
-        - name: :re garden
+        - name: :re garden [⚷]
           url: https://seth-woo.github.io/re-garden/
           weight: 4
         # - name: Data
@@ -100,7 +100,7 @@ params:
               url: https://x.com/woogamanga
             - name: linkedin
               url: https://www.linkedin.com/in/sethwoo/
-            - name: :re garden (🔒︎)
+            - name: :re garden [⚷]
               url: https://seth-woo.github.io/re-garden/
 
     socialIcons:
