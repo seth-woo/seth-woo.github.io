@@ -1,6 +1,6 @@
 body.is-home {
   background: #000;
-  --ascii-height: 92vh;
+  --ascii-height: 90vh;
 }
 
 body.is-home .ascii-overlay {
