@@ -88,23 +88,23 @@ body {
 }
 
 body.dark .social-icons .theme-toggle-btn-main .icon-sun {
+    opacity: 0;
+    transform: rotate(-60deg) scale(0.8);
+}
+
+body.dark .social-icons .theme-toggle-btn-main .icon-moon {
     opacity: 1;
     transform: rotate(0deg) scale(1);
 }
 
-body.dark .social-icons .theme-toggle-btn-main .icon-moon {
+body:not(.dark) .social-icons .theme-toggle-btn-main .icon-moon {
     opacity: 0;
     transform: rotate(60deg) scale(0.8);
 }
 
-body:not(.dark) .social-icons .theme-toggle-btn-main .icon-moon {
+body:not(.dark) .social-icons .theme-toggle-btn-main .icon-sun {
     opacity: 1;
     transform: rotate(0deg) scale(1);
-}
-
-body:not(.dark) .social-icons .theme-toggle-btn-main .icon-sun {
-    opacity: 0;
-    transform: rotate(-60deg) scale(0.8);
 }
 
 code {
