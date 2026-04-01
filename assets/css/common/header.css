@@ -50,23 +50,23 @@ button#theme-toggle svg {
 }
 
 body.dark #sun {
+    opacity: 0;
+    transform: rotate(-60deg) scale(0.8);
+}
+
+body.dark #moon {
     opacity: 1;
     transform: rotate(0deg) scale(1);
 }
 
-body.dark #moon {
+body:not(.dark) #moon {
     opacity: 0;
     transform: rotate(60deg) scale(0.8);
 }
 
-body:not(.dark) #moon {
+body:not(.dark) #sun {
     opacity: 1;
     transform: rotate(0deg) scale(1);
-}
-
-body:not(.dark) #sun {
-    opacity: 0;
-    transform: rotate(-60deg) scale(0.8);
 }
 
 #menu {
