@@ -134,6 +134,8 @@ params:
           url: https://discord.com/users/484731835990147088
         - name: whatsapp
           url: https://wa.me/60126942981
+        - name: personal
+          url: https://seth-woo.github.io/
         # - name: YouTube
         #   url: https://www.youtube.com/@pmichaillat
         # - name: tiktok
