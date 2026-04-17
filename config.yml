@@ -99,14 +99,14 @@ params:
             #   url: archive/
             - name: personal
               url: https://seth-woo.github.io/
-            - name: github
-              url: https://github.com/seth-woo
+            # - name: github
+            #   url: https://github.com/seth-woo
             # - name: twitter
             #   url: https://x.com/woogamanga
-            - name: linkedin
-              url: https://www.linkedin.com/in/sethwoo/
-            - name: :re garden [⚷]
-              url: https://seth-woo.github.io/re-garden/
+            # - name: linkedin
+            #   url: https://www.linkedin.com/in/sethwoo/
+            # - name: :re garden [⚷]
+            #   url: https://seth-woo.github.io/re-garden/
 
     socialIcons:
         - name: CV
@@ -118,14 +118,14 @@ params:
           url: https://orcid.org/0000-0002-0324-4815
         # - name: Google Scholar
         #   url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        # - name: GitHub
-        #   url: https://github.com/seth-woo
-        # - name: linkedin
-        #   url: https://www.linkedin.com/in/sethwoo/
-        - name: x
-          url: https://x.com/woogamanga
-        - name: Mastodon
-          url: https://mastodon.social/@seth_woo
+        - name: GitHub
+          url: https://github.com/seth-woo
+        - name: linkedin
+          url: https://www.linkedin.com/in/sethwoo/
+        # - name: x
+        #   url: https://x.com/woogamanga
+        # - name: Mastodon
+        #   url: https://mastodon.social/@seth_woo
         # - name: Bluesky
         #   url: https://bsky.app/profile/sethwoo.bsky.social
         # - name: instagram
