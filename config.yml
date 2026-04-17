@@ -25,21 +25,21 @@ menu:
         # - name: Courses
         #   url: courses/
         #   weight: 3
-        - name: personal
-          url: https://seth-woo.github.io/
-          weight: 1
-        - name: github
-          url: https://github.com/seth-woo
-          weight: 2
-        # - name: twitter
-        #   url: https://x.com/woogamanga
+        # - name: personal
+        #   url: https://seth-woo.github.io/
+        #   weight: 1
+        # - name: github
+        #   url: https://github.com/seth-woo
         #   weight: 2
-        - name: linkedin
-          url: https://www.linkedin.com/in/sethwoo/
-          weight: 3
-        - name: :re garden [⚷]
-          url: https://seth-woo.github.io/re-garden/
-          weight: 4
+        # # - name: twitter
+        # #   url: https://x.com/woogamanga
+        # #   weight: 2
+        # - name: linkedin
+        #   url: https://www.linkedin.com/in/sethwoo/
+        #   weight: 3
+        # - name: :re garden [⚷]
+        #   url: https://seth-woo.github.io/re-garden/
+        #   weight: 4
         # - name: Data
         #   url: data/
         #   weight: 4 
@@ -97,8 +97,8 @@ params:
             #   url: courses/
             # - name: Archive
             #   url: archive/
-            - name: personal
-              url: https://seth-woo.github.io/
+            # - name: personal
+            #   url: https://seth-woo.github.io/
             # - name: github
             #   url: https://github.com/seth-woo
             # - name: twitter
