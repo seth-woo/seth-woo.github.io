@@ -53,4 +53,6 @@
   display: block;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
+  opacity: 0.52;
+  filter: saturate(0.8) brightness(0.8);
 }

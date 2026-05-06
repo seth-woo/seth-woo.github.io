@@ -8,7 +8,8 @@
       {
         "ignore": [
           "user-select",
-          "text-size-adjust"
+          "text-size-adjust",
+          "image-rendering: crisp-edges"
         ]
       }
     ]
