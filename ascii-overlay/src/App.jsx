@@ -1,10 +1,30 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./App.css";
 import Video2Ascii from "video2ascii";
 
 function App() {
   const [isPlaying] = useState(true);
   const videoSrc = `${import.meta.env.BASE_URL}video.mp4`;
+  const playbackRate = 0.72;
+
+  useEffect(() => {
+    let frameId = 0;
+
+    const applyPlaybackRate = () => {
+      const video = document.querySelector(".video-full video");
+      if (video) {
+        video.playbackRate = playbackRate;
+        return;
+      }
+      frameId = requestAnimationFrame(applyPlaybackRate);
+    };
+
+    applyPlaybackRate();
+
+    return () => {
+      if (frameId) cancelAnimationFrame(frameId);
+    };
+  }, [playbackRate]);
 
   return (
     <div className="app">
