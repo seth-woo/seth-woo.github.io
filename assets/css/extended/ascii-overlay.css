@@ -55,7 +55,10 @@ body.is-home .profile img {
 
 @media screen and (max-width: 768px) {
   body.is-home .profile img {
+    transform: none;
     transform-origin: left top;
+    width: 140px;
+    height: 140px;
   }
 }
 
