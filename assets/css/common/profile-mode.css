@@ -37,7 +37,8 @@
 }
 
 .profile .profile_inner span strong {
-    color: #0000FF;
+    /* color: #0000FF; */
+    color: #003CFF;
 }
 
 .dark .profile .profile_inner span strong {
