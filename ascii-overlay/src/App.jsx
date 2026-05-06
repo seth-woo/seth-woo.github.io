@@ -5,7 +5,7 @@ import Video2Ascii from "video2ascii";
 function App() {
   const [isPlaying] = useState(true);
   const videoSrc = `${import.meta.env.BASE_URL}video.mp4`;
-  const playbackRate = 0.72;
+  const playbackRate = 0.5;
 
   useEffect(() => {
     let frameId = 0;
