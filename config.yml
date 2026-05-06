@@ -130,10 +130,10 @@ params:
         #   url: https://bsky.app/profile/sethwoo.bsky.social
         # - name: instagram
         #   url: https://www.instagram.com/21.09_wh/
-        - name: discord 
-          url: https://discord.com/users/484731835990147088
-        - name: whatsapp
-          url: https://wa.me/60126942981
+        # - name: discord 
+        #   url: https://discord.com/users/484731835990147088
+        # - name: whatsapp
+        #   url: https://wa.me/60126942981
         - name: personal
           url: https://seth-woo.github.io/
         # - name: YouTube
