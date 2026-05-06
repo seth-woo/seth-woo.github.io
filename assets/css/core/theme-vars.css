@@ -19,7 +19,8 @@
     --darkcolor: #6a7ba2;
     --lightcolor: #cbd1de;
     --semibold: 500;
-    --homesize: 14px;
+    /* --homesize: 14px; */
+    --homesize: 13px;
     --textsize: 18px;
     --h1size: 25px;
     --entrysize: 15px;
