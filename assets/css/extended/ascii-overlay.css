@@ -49,6 +49,12 @@ body.is-home .profile img {
   border: 1px solid var(--tertiary);
 }
 
+@media screen and (max-width: 768px) {
+  body.is-home .profile img {
+    transform-origin: left top;
+  }
+}
+
 body.is-home .social-icons {
   margin-top: 6px;
 }
