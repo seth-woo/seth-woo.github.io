@@ -64,9 +64,3 @@ body.is-home.dark .profile {
 body.is-home #ascii-overlay-root .stage-inner {
   max-height: calc(var(--ascii-height) - (2 * var(--pad)));
 }
-
-@media (min-aspect-ratio: 1080/608) {
-  body.is-home #ascii-overlay-root .stage-inner {
-    height: calc(var(--ascii-height) - (2 * var(--pad)));
-  }
-}

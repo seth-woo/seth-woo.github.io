@@ -23,17 +23,10 @@
 }
 
 #ascii-overlay-root .stage-inner {
-  width: calc(100vw - (2 * var(--pad)));
+  width: calc(100% - (2 * var(--pad)));
   aspect-ratio: 1080 / 608;
   height: auto;
   max-height: calc(100vh - (2 * var(--pad)));
-}
-
-@media (min-aspect-ratio: 1080/608) {
-  #ascii-overlay-root .stage-inner {
-    height: calc(100vh - (2 * var(--pad)));
-    width: auto;
-  }
 }
 
 #ascii-overlay-root .video-full {
