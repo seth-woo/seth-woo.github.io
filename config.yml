@@ -149,6 +149,7 @@ params:
 
     assets:
         disableScrollBarStyle: true
+        faviconVersion: "20260507"
     cover:
         hiddenInList: false
         hiddenInSingle: true
